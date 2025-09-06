@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import bookCover from "@/assets/book-cover.jpg";
+import bookCover from "@/assets/avhopparen-en-sann-berattelse.jpg";
 import Navigation from "@/components/Navigation";
 
 const Book = () => {
