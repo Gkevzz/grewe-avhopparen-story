@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navigation from "@/components/Navigation";
+import authorPhoto from "@/assets/viktor-grewe.jpg";
 
 const About = () => {
   return (
@@ -30,7 +31,11 @@ const About = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-full"></div>
                 <div className="relative w-80 h-80 bg-muted rounded-full shadow-elegant flex items-center justify-center">
-                  <span className="font-body text-muted-foreground text-sm">Författarbild</span>
+                  <img
+  src={authorPhoto}
+  alt="Viktor Grewe"
+  className="w-full h-full object-cover"
+/>
                 </div>
               </div>
             </div>
