@@ -10,8 +10,12 @@ const Navigation = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navItems = [
-    { name: "Hem", path: "/" },
-    { name: "Om Boken", path: "/boken" },
+    { name: "Startsida", path: "/" },
+    { name: "Föreläsningar", path: "/forelasningar" },
+    { name: "Om författaren", path: "/om-forfattaren" },
+    { name: "Boken", path: "/boken" },
+    { name: "Intervjuer/Poddar", path: "/intervjuer" },
+    { name: "Kontakt", path: "/kontakt" },
   ];
 
   return (
@@ -38,15 +42,6 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button asChild variant="secondary" size="sm" className="font-body">
-              <a 
-                href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Köp Boken
-              </a>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,16 +74,6 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild variant="secondary" size="sm" className="font-body w-fit">
-                <a 
-                  href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={toggleMenu}
-                >
-                  Köp Boken
-                </a>
-              </Button>
             </div>
           </div>
         )}

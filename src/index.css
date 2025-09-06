@@ -135,3 +135,39 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Text color utilities for proper contrast */
+  .text-cream-light {
+    color: hsl(var(--cream-light));
+  }
+  
+  .text-cream-medium {
+    color: hsl(var(--cream-medium));
+  }
+  
+  .text-navy-dark {
+    color: hsl(var(--navy-dark));
+  }
+  
+  .text-gold-bright {
+    color: hsl(var(--gold-bright));
+  }
+  
+  /* Background color utilities */
+  .bg-navy-dark {
+    background-color: hsl(var(--navy-dark));
+  }
+  
+  .bg-navy-medium {
+    background-color: hsl(var(--navy-medium));
+  }
+  
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+}

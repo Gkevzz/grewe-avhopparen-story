@@ -12,14 +12,21 @@ const Hero = () => {
           <div className="space-y-8 order-2 lg:order-1">
             <div className="space-y-6">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Avhopparen
-                <span className="block text-accent">En sann berättelse</span>
+                Boka Viktor Grewe
+                <span className="block text-accent">för Föreläsningar</span>
               </h1>
               
               <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Viktor Grewe – Få insyn i utanförskap. Motverka spiralen mot kriminalitet. 
-                Arbeta preventivt mot gängrekrytering. Lär er om avhoppare i samhället idag.
+                Engagerande föreläsningar om resiliens, personlig utveckling och mod att förändra. 
+                Få insyn i utanförskap och arbeta preventivt mot gängrekrytering.
               </p>
+              
+              <div className="bg-card/60 backdrop-blur-sm border border-border/50 rounded-lg p-4">
+                <p className="font-body text-sm text-muted-foreground">
+                  <span className="font-medium text-foreground">Författare till</span> 'Avhopparen – En sann berättelse', 
+                  en gripande berättelse om utanförskap och våldets konsekvenser.
+                </p>
+              </div>
             </div>
 
             <Card className="p-6 shadow-soft bg-card/50 backdrop-blur-sm border-border/50">
@@ -48,12 +55,8 @@ const Hero = () => {
                 size="lg" 
                 className="font-body text-base px-8 py-3 bg-gradient-hero hover:opacity-90 transition-all duration-300 shadow-elegant"
               >
-                <a 
-                  href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Köp nu
+                <a href="/forelasningar">
+                  Boka föreläsning
                 </a>
               </Button>
               
