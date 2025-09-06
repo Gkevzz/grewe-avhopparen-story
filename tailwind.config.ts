@@ -57,6 +57,39 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Viktor Grewe custom colors
+        navy: {
+          dark: "hsl(var(--navy-dark))",
+          medium: "hsl(var(--navy-medium))",
+          light: "hsl(var(--navy-light))",
+        },
+        gold: {
+          bright: "hsl(var(--gold-bright))",
+          muted: "hsl(var(--gold-muted))",
+        },
+        cream: {
+          light: "hsl(var(--cream-light))",
+          medium: "hsl(var(--cream-medium))",
+        },
+      },
+      fontFamily: {
+        display: "var(--font-display)",
+        body: "var(--font-body)",
+        sans: "var(--font-body)",
+        serif: "var(--font-display)",
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-gold': 'var(--gradient-gold)',
+        'gradient-cream': 'var(--gradient-cream)',
+      },
+      boxShadow: {
+        'elegant': 'var(--shadow-elegant)',
+        'gold': 'var(--shadow-gold)',
+        'soft': 'var(--shadow-soft)',
+      },
+      transitionTimingFunction: {
+        'elegant': 'cubic-bezier(0.4, 0, 0.2, 1)',
       },
       borderRadius: {
         lg: "var(--radius)",
