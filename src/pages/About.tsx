@@ -35,6 +35,7 @@ const About = () => {
   src={authorPhoto}
   alt="Viktor Grewe"
   className="w-full h-full object-cover"
+  loading="lazy"
 />
                 </div>
               </div>
