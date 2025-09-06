@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import bookCover from "@/assets/avhopparen-en-sann-berattelse.jpg";
-import authorPhoto from "@/assets/ViktorGrewe.PNG";
+import authorPhoto from "@/assets/viktor-grewe.jpg";
 
 const Hero = () => {
   return (
