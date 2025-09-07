@@ -1,128 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    /* Viktor Grewe Design System - Navy/Gold/Cream Theme */
-    --background: 48 50% 96%; /* Cream background */
-    --foreground: 225 35% 15%; /* Deep navy text */
-
-    --card: 48 50% 98%;
-    --card-foreground: 225 35% 15%;
-
-    --popover: 48 50% 98%;
-    --popover-foreground: 225 35% 15%;
-
-    --primary: 225 60% 20%; /* Deep navy primary */
-    --primary-foreground: 48 50% 96%;
-
-    --secondary: 42 85% 55%; /* Elegant gold */
-    --secondary-foreground: 225 35% 15%;
-
-    --muted: 42 20% 88%; /* Muted cream */
-    --muted-foreground: 225 20% 45%;
-
-    --accent: 42 85% 55%; /* Gold accent */
-    --accent-foreground: 225 35% 15%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 48 50% 96%;
-
-    --border: 42 25% 85%;
-    --input: 42 25% 85%;
-    --ring: 42 85% 55%;
-
+    /* Navy, Gold, Cream color scheme */
+    --background: 220 30% 8%;        /* Dark navy background */
+    --foreground: 42 87% 88%;        /* Cream text */
+    --card: 220 25% 12%;             /* Slightly lighter navy for cards */
+    --card-foreground: 42 87% 88%;   /* Cream text on cards */
+    --popover: 220 25% 12%;
+    --popover-foreground: 42 87% 88%;
+    --primary: 45 93% 58%;           /* Gold primary */
+    --primary-foreground: 220 30% 8%; /* Navy text on gold */
+    --secondary: 220 20% 18%;        /* Medium navy */
+    --secondary-foreground: 42 87% 88%; /* Cream text */
+    --muted: 220 15% 25%;            /* Lighter navy for muted */
+    --muted-foreground: 42 50% 70%;  /* Muted cream */
+    --accent: 45 93% 58%;            /* Gold accent */
+    --accent-foreground: 220 30% 8%; /* Navy text on gold */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 42 87% 88%;
+    --border: 220 20% 20%;           /* Navy border */
+    --input: 220 20% 18%;            /* Navy input background */
+    --ring: 45 93% 58%;              /* Gold focus ring */
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --navy-dark: 225 70% 12%;
-    --navy-medium: 225 60% 20%;
-    --navy-light: 225 40% 30%;
-    --gold-bright: 42 85% 55%;
-    --gold-muted: 42 60% 65%;
-    --cream-light: 48 50% 98%;
-    --cream-medium: 48 40% 92%;
+    --navy-dark: 220 30% 8%;
+    --navy-medium: 220 25% 12%;
+    --navy-light: 220 20% 18%;
+    --gold-bright: 45 93% 58%;
+    --gold-muted: 43 85% 65%;
+    --cream-light: 42 87% 88%;
+    --cream-medium: 42 50% 70%;
     
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy-medium)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-bright)), hsl(var(--gold-muted)));
-    --gradient-cream: linear-gradient(180deg, hsl(var(--cream-light)), hsl(var(--cream-medium)));
+    /* Navy/Gold/Cream gradients */
+    --gradient-navy: linear-gradient(135deg, hsl(var(--navy-dark)) 0%, hsl(var(--navy-medium)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--navy-dark)) 0%, hsl(var(--navy-medium)) 50%, hsl(var(--gold-bright)) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-bright)) 0%, hsl(var(--gold-muted)) 100%);
+    --gradient-cream: linear-gradient(135deg, hsl(var(--cream-light)) 0%, hsl(var(--cream-medium)) 100%);
     
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--navy-medium) / 0.2);
-    --shadow-gold: 0 5px 20px -5px hsl(var(--gold-bright) / 0.3);
-    --shadow-soft: 0 4px 16px -4px hsl(var(--navy-medium) / 0.1);
+    /* Custom shadows with gold glow */
+    --shadow-soft: 0 2px 15px -3px hsla(220, 30%, 8%, 0.3), 0 10px 20px -2px hsla(220, 30%, 8%, 0.2);
+    --shadow-elegant: 0 10px 30px -10px hsla(220, 30%, 8%, 0.4);
+    --shadow-gold: 0 10px 30px -10px hsla(45, 93%, 58%, 0.3);
     
-    /* Typography scale */
+    /* Typography */
     --font-display: 'Playfair Display', serif;
     --font-body: 'Source Sans Pro', sans-serif;
     
     /* Transitions */
-    --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-smooth: all 0.3s ease-out;
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-elegant: cubic-bezier(0.23, 1, 0.32, 1);
 
-    --sidebar-background: 48 50% 98%;
-    --sidebar-foreground: 225 35% 15%;
-    --sidebar-primary: 225 60% 20%;
-    --sidebar-primary-foreground: 48 50% 96%;
-    --sidebar-accent: 42 20% 88%;
-    --sidebar-accent-foreground: 225 35% 15%;
-    --sidebar-border: 42 25% 85%;
-    --sidebar-ring: 42 85% 55%;
+    --sidebar-background: 220 25% 12%;
+    --sidebar-foreground: 42 87% 88%;
+    --sidebar-primary: 45 93% 58%;
+    --sidebar-primary-foreground: 220 30% 8%;
+    --sidebar-accent: 220 15% 25%;
+    --sidebar-accent-foreground: 42 87% 88%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 45 93% 58%;
   }
 
   .dark {
-    /* Dark mode using same navy/gold/cream with darker tones */
-    --background: 225 70% 8%;
-    --foreground: 48 50% 96%;
+    /* Dark mode uses the same navy/gold/cream scheme */
+    --background: 220 30% 8%;
+    --foreground: 42 87% 88%;
+    --card: 220 25% 12%;
+    --card-foreground: 42 87% 88%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 42 87% 88%;
+    --primary: 45 93% 58%;
+    --primary-foreground: 220 30% 8%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 42 87% 88%;
+    --muted: 220 15% 25%;
+    --muted-foreground: 42 50% 70%;
+    --accent: 45 93% 58%;
+    --accent-foreground: 220 30% 8%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 42 87% 88%;
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 45 93% 58%;
 
-    --card: 225 60% 12%;
-    --card-foreground: 48 50% 96%;
-
-    --popover: 225 60% 12%;
-    --popover-foreground: 48 50% 96%;
-
-    --primary: 48 50% 96%;
-    --primary-foreground: 225 70% 8%;
-
-    --secondary: 42 85% 55%;
-    --secondary-foreground: 225 70% 8%;
-
-    --muted: 225 50% 16%;
-    --muted-foreground: 48 30% 75%;
-
-    --accent: 42 85% 55%;
-    --accent-foreground: 225 70% 8%;
-
-    --destructive: 0 62.8% 45%;
-    --destructive-foreground: 48 50% 96%;
-
-    --border: 225 40% 20%;
-    --input: 225 40% 20%;
-    --ring: 42 85% 55%;
-
-    /* Update custom tokens for dark mode */
-    --navy-dark: 225 80% 5%;
-    --navy-medium: 225 70% 12%;
-    --navy-light: 225 50% 20%;
-    --gold-bright: 42 85% 60%;
-    --gold-muted: 42 70% 70%;
-    --cream-light: 48 30% 85%;
-    --cream-medium: 48 20% 75%;
-    
-    --sidebar-background: 225 70% 8%;
-    --sidebar-foreground: 48 50% 96%;
-    --sidebar-primary: 42 85% 55%;
-    --sidebar-primary-foreground: 225 70% 8%;
-    --sidebar-accent: 225 50% 16%;
-    --sidebar-accent-foreground: 48 50% 96%;
-    --sidebar-border: 225 40% 20%;
-    --sidebar-ring: 42 85% 55%;
+    --sidebar-background: 220 30% 8%;
+    --sidebar-foreground: 42 87% 88%;
+    --sidebar-primary: 45 93% 58%;
+    --sidebar-primary-foreground: 220 30% 8%;
+    --sidebar-accent: 220 15% 25%;
+    --sidebar-accent-foreground: 42 87% 88%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 45 93% 58%;
   }
 }
 
@@ -132,42 +105,58 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
   }
 }
 
 @layer utilities {
-  /* Text color utilities for proper contrast */
-  .text-cream-light {
-    color: hsl(var(--cream-light));
+  /* Custom utility classes */
+  .bg-gradient-cream {
+    background: var(--gradient-cream);
   }
-  
-  .text-cream-medium {
-    color: hsl(var(--cream-medium));
-  }
-  
-  .text-navy-dark {
-    color: hsl(var(--navy-dark));
-  }
-  
-  .text-gold-bright {
-    color: hsl(var(--gold-bright));
-  }
-  
-  /* Background color utilities */
-  .bg-navy-dark {
-    background-color: hsl(var(--navy-dark));
-  }
-  
-  .bg-navy-medium {
-    background-color: hsl(var(--navy-medium));
-  }
-  
+
   .bg-gradient-hero {
     background: var(--gradient-hero);
   }
-  
+
   .bg-gradient-gold {
     background: var(--gradient-gold);
+  }
+
+  .bg-gradient-navy {
+    background: var(--gradient-navy);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .ease-elegant {
+    transition-timing-function: var(--ease-elegant);
+  }
+
+  /* KRIS link styling */
+  .kris-link {
+    @apply text-accent hover:text-accent/80 underline transition-colors duration-200;
   }
 }

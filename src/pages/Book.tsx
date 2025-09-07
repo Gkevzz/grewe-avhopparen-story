@@ -6,12 +6,28 @@ import bookCover from "@/assets/avhopparen-en-sann-berattelse.jpg";
 import Navigation from "@/components/Navigation";
 
 const Book = () => {
+  const formatKrisLinks = (text: string) => {
+    return text.split(/(KRIS)/g).map((part, index) => 
+      part === 'KRIS' ? (
+        <a 
+          key={index}  
+          href="https://www.kris.a.se" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="kris-link"
+        >
+          KRIS
+        </a>
+      ) : part
+    );
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-cream">
+      <section className="pt-24 pb-16 bg-gradient-navy">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -33,7 +49,7 @@ const Book = () => {
               <Button 
                 asChild 
                 size="lg" 
-                className="font-body text-base px-8 py-3 bg-gradient-hero hover:opacity-90 transition-all duration-300 shadow-elegant"
+                className="font-body text-base px-8 py-3 bg-gradient-gold text-background hover:opacity-90 transition-all duration-300 shadow-gold"
               >
                 <a 
                   href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805"
@@ -143,7 +159,7 @@ const Book = () => {
           </CardHeader>
           <CardContent>
             <p className="font-body text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">Viktor Grewe</strong> (f. 1999) är uppvuxen i Märsta och jobbar idag för KRIS 
+              <strong className="text-foreground">Viktor Grewe</strong> (f. 1999) är uppvuxen i Märsta och jobbar idag för {formatKrisLinks('KRIS')} 
               (Kriminellas Revansch i Samhället). Efter att ha lämnat kriminaliteten bakom sig 2021, 
               har Viktor ägnat sig åt att hjälpa andra unga att hitta en väg ut ur destruktiva mönster. 
               Han arbetar med förebyggande insatser mot gängrekrytering och håller föreläsningar på 
@@ -201,7 +217,7 @@ const Book = () => {
         </Card>
 
         {/* CTA Section */}
-        <Card className="shadow-elegant bg-gradient-cream border-accent/20">
+        <Card className="shadow-elegant bg-gradient-navy border-accent/20">
           <CardContent className="py-12 text-center space-y-6">
             <h2 className="font-display text-3xl font-bold text-foreground">
               Beställ din kopia idag
@@ -213,7 +229,7 @@ const Book = () => {
             <Button 
               asChild 
               size="lg" 
-              className="font-body text-base px-12 py-4 bg-gradient-hero hover:opacity-90 transition-all duration-300 shadow-gold"
+              className="font-body text-base px-12 py-4 bg-gradient-gold text-background hover:opacity-90 transition-all duration-300 shadow-gold"
             >
               <a 
                 href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805"
