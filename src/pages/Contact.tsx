@@ -123,12 +123,13 @@ const Contact = () => {
               </div>
               
               <Button 
-                size="lg" 
-                className="w-full font-body text-base px-8 py-3 bg-gold transition-all duration-300 shadow-elegant"
-              >
-                <Calendar className="w-4 h-4 mr-2" />
-                Boka föreläsning nu
-              </Button>
+  size="lg" 
+  variant="unstyled"
+  className="w-full font-body text-base px-8 py-3 bg-gold text-black transition-all duration-300 shadow-elegant"
+>
+  <Calendar className="w-4 h-4 mr-2" />
+  Boka föreläsning nu
+</Button>
             </CardContent>
           </Card>
         </div>
