@@ -23,7 +23,7 @@ const Interviews = () => {
                   Viktor Grewe berättar sin historia
                 </span>
               </h1>
-              <p className="font-body text-lg text-muted-navy-dark leading-relaxed max-w-3xl mx-auto">
+              <p className="font-body text-lg text-navy-dark leading-relaxed max-w-3xl mx-auto">
                 Lyssna på och titta på intervjuer där Viktor delar sina erfarenheter och 
                 insikter om vägen från kriminalitet till ett konstruktivt liv.
               </p>
