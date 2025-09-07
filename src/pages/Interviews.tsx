@@ -174,10 +174,10 @@ const Interviews = () => {
         <Card className="shadow-soft bg-gradient-cream border-accent/20">
           <CardContent className="py-8 space-y-6">
             <div className="text-center space-y-4">
-              <h2 className="font-display text-2xl font-bold text-foreground">
+              <h2 className="font-display text-2xl font-bold text-navy-dark">
                 Läs hela historien i "Avhopparen"
               </h2>
-              <p className="font-body text-muted-foreground max-w-2xl mx-auto">
+              <p className="font-body text-muted-navy-dark max-w-2xl mx-auto">
                 För den fullständiga berättelsen om Viktors resa från kriminalitet 
                 till återhämtning, läs hans självbiografiska bok.
               </p>
