@@ -123,8 +123,7 @@ const Contact = () => {
               </div>
              <Button
   size="lg"
-  variant="unstyled"
-  className="w-full font-body text-base px-8 py-3 bg-cream text-black hover:bg-cream/90 transition-all duration-300 shadow-elegant flex items-center justify-center"
+  className="w-full font-body text-base px-8 py-3 bg-[hsl(var(--cream))] text-[hsl(var(--navy-dark))] hover:bg-[hsl(var(--cream))]/90 border-[hsl(var(--cream))] transition-all duration-300 flex items-center justify-center"
 >
   <Calendar className="w-4 h-4 mr-2" />
   Boka föreläsning nu
