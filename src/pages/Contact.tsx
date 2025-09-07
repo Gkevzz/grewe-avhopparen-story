@@ -124,7 +124,7 @@ const Contact = () => {
              <Button
   size="lg"
   variant="unstyled"
-  className="w-full font-body text-base px-8 py-3 bg-cream text-black hover:bg-cream/90 transition-all duration-300 shadow-elegant"
+  className="w-full font-body text-white px-8 py-3 bg-cream text-black hover:bg-cream/90 transition-all duration-300 shadow-elegant"
 >
   <Calendar className="w-4 h-4 mr-2" />
   Boka föreläsning nu
