@@ -103,8 +103,7 @@ const Lectures = () => {
           <CardContent className="space-y-6">
             <blockquote className="font-body text-muted-foreground leading-relaxed">
               <p className="mb-4">
-                "Viktor berättelse gjorde stort intryck på eleverna. 
-                Viktor berättelse gjorde stort intryck på eleverna. Hans ärlighet och autenticitet skapade en djup 
+                "Viktors berättelse gjorde stort intryck på eleverna. Hans ärlighet och autenticitet skapade en djup 
                 reflektion kring val och konsekvenser."
               </p>
               <footer className="text-sm text-accent font-medium">
