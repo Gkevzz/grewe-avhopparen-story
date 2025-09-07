@@ -79,7 +79,7 @@ const Book = () => {
                 <em>Avhopparen</em> är en sann berättelse om ett Sverige i krig, där våld och 
                 kriminalitet blivit vardag för många unga. Det är berättelsen om Viktor som 
                 växer upp i en förort där gränsen mellan rätt och fel suddas ut tidigt, där 
-                våld blir ett språk och where tillhörighet skapas genom kriminalitet.
+                våld blir ett språk och där tillhörighet skapas genom kriminalitet.
               </p>
               
               <p>
