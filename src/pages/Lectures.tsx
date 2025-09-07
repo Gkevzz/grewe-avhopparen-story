@@ -72,7 +72,7 @@ const Lectures = () => {
                 </h3>
                 <ul className="font-body text-muted-foreground space-y-2">
                   <li>• Hur man lämnar kriminalitet och destruktiva mönster bakom sig</li>
-                  <li>• Vikten av stöd, mentorskap och trygghet</li>
+                  <li>• Att våga ta initiativ och fatta modiga beslut</li>
                   <li>• Vikten av stöd och mentorskap</li>
                   <li>• Hur unga kan ta ansvar för sina val och framtid</li>
                 </ul>
