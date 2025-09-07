@@ -17,13 +17,13 @@ const Contact = () => {
               <Badge variant="secondary" className="w-fit font-body mx-auto">
                 Kontakt
               </Badge>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground leading-tight">
+              <h1 className="font-display text-4xl md:text-5xl font-bold text-navy-dark leading-tight">
                 Kontakta Viktor Grewe
-                <span className="block text-2xl md:text-3xl text-muted-foreground font-normal mt-2">
+                <span className="block text-2xl md:text-3xl text-navy-dark font-normal mt-2">
                   För föreläsningar och samarbeten
                 </span>
               </h1>
-              <p className="font-body text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              <p className="font-body text-lg text-navy-dark leading-relaxed max-w-3xl mx-auto">
                 Boka Viktor för föreläsningar, workshops eller andra arrangemang. 
                 Kontakta mig för att diskutera era behov och hur Viktor kan bidra.
               </p>
