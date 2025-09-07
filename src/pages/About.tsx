@@ -30,7 +30,7 @@ const About = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-full"></div>
-                <div className="relative w-80 h-80 bg-muted rounded-full shadow-elegant flex items-center justify-center">
+                <div className="relative w-80 h-80 bg-muted rounded-full shadow-elegant flex items-center justify-center overflow-hidden">
                   <img
   src={authorPhoto}
   alt="Viktor Grewe"
