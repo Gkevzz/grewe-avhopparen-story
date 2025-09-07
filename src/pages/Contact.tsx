@@ -25,7 +25,7 @@ const Contact = () => {
               </h1>
               <p className="font-body text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                 Boka Viktor för föreläsningar, workshops eller andra arrangemang. 
-                Kontakta oss för att diskutera era behov och hur Viktor kan bidra.
+                Kontakta mig för att diskutera era behov och hur Viktor kan bidra.
               </p>
             </div>
           </div>
