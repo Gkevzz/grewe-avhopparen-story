@@ -143,17 +143,17 @@ const About = () => {
 
         {/* Mission */}
         <Card className="shadow-soft bg-gradient-cream border-accent/20">
-          <CardContent className="py-8 space-y-6">
-            <h2 className="font-display text-2xl font-bold text-foreground text-center">
-              Viktors mission
-            </h2>
-            <blockquote className="font-body text-lg text-muted-foreground leading-relaxed text-center italic max-w-3xl mx-auto">
-              "Mitt mål är att visa att förändring alltid är möjlig, oavsett var man kommer ifrån 
-              eller vad man har gjort. Genom att dela min egen historia hoppas jag kunna hjälpa 
-              andra att hitta modet att förändra sitt eget liv."
-            </blockquote>
-          </CardContent>
-        </Card>
+  <CardContent className="py-8 space-y-6">
+    <h2 className="font-display text-2xl font-bold text-black text-center">
+      Viktors mission
+    </h2>
+    <blockquote className="font-body text-lg text-gray-800 leading-relaxed text-center italic max-w-3xl mx-auto">
+      "Mitt mål är att visa att förändring alltid är möjlig, oavsett var man kommer ifrån 
+      eller vad man har gjort. Genom att dela min egen historia hoppas jag kunna hjälpa 
+      andra att hitta modet att förändra sitt eget liv."
+    </blockquote>
+  </CardContent>
+</Card>
 
         {/* CTA Section */}
         <Card className="shadow-elegant bg-gradient-to-r from-navy-dark to-navy-medium border-gold-bright/20">
