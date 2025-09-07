@@ -175,7 +175,7 @@ const About = () => {
                 asChild
                 variant="outline"
                 size="lg" 
-                className="font-body text-base px-8 py-3 border-2 border-cream-light text-navy-dark hover:bg-cream-light hover:text-navy-dark transition-all duration-300"
+                className="font-body text-base px-8 py-3 border-2 border-cream-light text-navy-dark bg-cream-light hover:text-navy-dark transition-all duration-300"
               >
                 <a href="/forelasningar">Läs mer om föreläsningarna</a>
               </Button>
