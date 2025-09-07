@@ -18,9 +18,9 @@ const About = () => {
                 <Badge variant="secondary" className="w-fit font-body">
                   Författare & Föreläsare
                 </Badge>
-                <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground leading-tight">
-                  Viktor Grewe
-                  <span className="block text-2xl md:text-3xl text-muted-foreground font-normal mt-2">
+                <h1 className="font-display text-4xl md:text-5xl font-bold text-black leading-tight">
+  Viktor Grewe
+  <span className="block text-2xl md:text-3xl text-gray-800 font-normal mt-2">
                     Från utanförskap till engagemang
                   </span>
                 </h1>
