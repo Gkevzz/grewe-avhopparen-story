@@ -17,13 +17,13 @@ const Interviews = () => {
               <Badge variant="secondary" className="w-fit font-body mx-auto">
                 Media & Intervjuer
               </Badge>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground leading-tight">
+              <h1 className="font-display text-4xl md:text-5xl font-bold text-navy-dark leading-tight">
                 Intervjuer & Poddar
-                <span className="block text-2xl md:text-3xl text-muted-foreground font-normal mt-2">
+                <span className="block text-2xl md:text-3xl text-muted-navy-dark font-normal mt-2">
                   Viktor Grewe berättar sin historia
                 </span>
               </h1>
-              <p className="font-body text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              <p className="font-body text-lg text-muted-navy-dark leading-relaxed max-w-3xl mx-auto">
                 Lyssna på och titta på intervjuer där Viktor delar sina erfarenheter och 
                 insikter om vägen från kriminalitet till ett konstruktivt liv.
               </p>
@@ -177,7 +177,7 @@ const Interviews = () => {
               <h2 className="font-display text-2xl font-bold text-navy-dark">
                 Läs hela historien i "Avhopparen"
               </h2>
-              <p className="font-body text-muted-navy-dark max-w-2xl mx-auto">
+              <p className="font-body text-navy-dark max-w-2xl mx-auto">
                 För den fullständiga berättelsen om Viktors resa från kriminalitet 
                 till återhämtning, läs hans självbiografiska bok.
               </p>
