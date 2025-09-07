@@ -190,7 +190,7 @@ const Lectures = () => {
               size="lg" 
               className="font-body text-base px-12 py-4 bg-gradient-gold hover:opacity-90 transition-all duration-300 shadow-gold text-navy-dark"
             >
-              Kontakta oss för bokning
+              Kontakta Viktor för bokning
             </Button>
           </CardContent>
         </Card>
