@@ -17,14 +17,14 @@ const Hero = () => {
               </h1>
               
               <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Engagerande föreläsningar om resiliens, personlig utveckling och mod att förändra. 
-                Få insyn i utanförskap och arbeta preventivt mot gängrekrytering.
+                Inspirerande och ärliga föreläsningar om utanförskap, personlig förändring och modet att bryta destruktiva mönster. 
+                Lär er hur unga kan stå emot kriminalitet och hitta en väg framåt.
               </p>
               
               <div className="bg-card/60 backdrop-blur-sm border border-border/50 rounded-lg p-4">
                 <p className="font-body text-sm text-muted-foreground">
-                  <span className="font-medium text-foreground">Författare till</span> 'Avhopparen – En sann berättelse', 
-                  en gripande berättelse om utanförskap och våldets konsekvenser.
+                  <span className="font-medium text-foreground">Författare till</span> Författare till 'Avhopparen – En sann berättelse', en gripande självbiografi om Viktor Grewes resa från kriminalitet 
+                  till ett meningsfullt liv och hur erfarenheter från samhällets utsatta miljöer kan användas för att hjälpa andra.
                 </p>
               </div>
             </div>
@@ -41,9 +41,10 @@ const Hero = () => {
                     Viktor Grewe
                   </h3>
                   <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                    Efter en uppväxt kantad av våld, brottslighet och fängelsestraff beslutade Viktor Grewe 2021 
-                    att förändra sitt liv. I oktober 2024 släpper han sin självbiografiska bok 'Avhopparen', 
-                    en berättelse om utanförskap och våldets konsekvenser, samt hur unga kan lämna kriminalitet bakom sig.
+                    Efter en uppväxt kantad av våld, brottslighet och fängelsestraff beslutade Viktor 2021 att förändra sitt liv. 
+                    Genom sitt arbete med KRIS och sina föreläsningar delar han med sig av sina erfarenheter för att inspirera och 
+                    guida unga människor bort från kriminalitet. Hans bok Avhopparen ger en unik inblick i vägen ut ur kriminalitet 
+                    och visar att förändring alltid är möjlig med rätt stöd och vilja.
                   </p>
                 </div>
               </div>
