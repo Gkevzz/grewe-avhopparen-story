@@ -57,7 +57,7 @@ const Hero = () => {
                 className="font-body text-base px-8 py-3 bg-gradient-hero hover:opacity-90 transition-all duration-300 shadow-elegant"
               >
                 <a href="/forelasningar">
-                  Boka föreläsning
+                  Information om föreläsningar
                 </a>
               </Button>
               
