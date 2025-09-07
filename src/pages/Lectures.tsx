@@ -22,8 +22,8 @@ const Lectures = () => {
                 <span className="block text-gold-bright mt-2">för Föreläsningar</span>
               </h1>
               <p className="font-body text-lg md:text-xl text-cream-medium leading-relaxed max-w-3xl mx-auto">
-                Engagerande föreläsningar om resiliens, personlig utveckling och modet att förändra sitt liv. 
-                Baserat på verkliga erfarenheter från vägen ut ur kriminalitet.
+                Inspirerande föreläsningar om utanförskap, kriminalitet och hur unga kan hitta en väg ut. Baseras på verkliga erfarenheter från Viktor 
+                Grewes resa och hans arbete med KRIS.
               </p>
             </div>
             
@@ -50,21 +50,8 @@ const Lectures = () => {
           <CardContent className="space-y-6">
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                Viktor Grewe delar med sig av sina erfarenheter från ett liv kantat av våld, 
-                kriminalitet och återhämtning. Hans föreläsningar ger en unik inblick i hur 
-                unga kan lämna kriminalitet bakom sig och hitta en väg framåt.
-              </p>
-              
-              <p>
-                Genom sin egen resa från kriminalitet till ett konstruktivt liv som 
-                medarbetare på KRIS, erbjuder Viktor autentiska insikter om resiliens, 
-                personlig utveckling och vikten av stöd i förändringsprocessen.
-              </p>
-              
-              <p>
-                Föreläsningarna är baserade på de verkliga erfarenheterna som beskrivs i 
-                hans självbiografiska bok 'Avhopparen – En sann berättelse' och hans 
-                dagliga arbete med att hjälpa andra att bryta destruktiva mönster.
+             Viktor Grewe delar sin egen resa från kriminalitet till ett konstruktivt liv och ger konkreta insikter om hur unga kan lämna destruktiva mönster. 
+             Föreläsningarna kombinerar personliga erfarenheter med konkreta exempel från hans arbete på KRIS.
               </p>
             </div>
           </CardContent>
@@ -81,13 +68,13 @@ const Lectures = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <h3 className="font-display text-xl font-semibold text-foreground">
-                  Personlig utveckling & resiliens
+                  Personlig utveckling & förändring
                 </h3>
                 <ul className="font-body text-muted-foreground space-y-2">
-                  <li>• Vägen från utanförskap till tillhörighet</li>
-                  <li>• Att ta ansvar för sitt liv och sina val</li>
+                  <li>• Hur man lämnar kriminalitet och destruktiva mönster bakom sig</li>
+                  <li>• Vikten av stöd, mentorskap och trygghet</li>
                   <li>• Vikten av stöd och mentorskap</li>
-                  <li>• Att våga förändra när allt känns hopplöst</li>
+                  <li>• Hur unga kan ta ansvar för sina val och framtid</li>
                 </ul>
               </div>
               
@@ -96,8 +83,8 @@ const Lectures = () => {
                   Förebyggande arbete
                 </h3>
                 <ul className="font-body text-muted-foreground space-y-2">
-                  <li>• Hur gängrekrytering fungerar i praktiken</li>
-                  <li>• Varför unga hamnar i kriminalitet</li>
+                  <li>• Hur gängrekrytering fungerar och varför unga lockas</li>
+                  <li>• Konkreta metoder för att stoppa unga från att gå fel väg</li>
                   <li>• Vägen ut ur destruktiva mönster</li>
                   <li>• KRIS arbetsmetoder och filosofi</li>
                 </ul>
@@ -116,8 +103,9 @@ const Lectures = () => {
           <CardContent className="space-y-6">
             <blockquote className="font-body text-muted-foreground leading-relaxed">
               <p className="mb-4">
-                "Viktor berättelse gjorde stort intryck på eleverna. Hans ärlighet och 
-                autenticitet skapade en djup reflektion kring val och konsekvenser."
+                "Viktor berättelse gjorde stort intryck på eleverna. 
+                Viktor berättelse gjorde stort intryck på eleverna. Hans ärlighet och autenticitet skapade en djup 
+                reflektion kring val och konsekvenser."
               </p>
               <footer className="text-sm text-accent font-medium">
                 — Rektor, Gymnasieskola Stockholm
@@ -128,8 +116,8 @@ const Lectures = () => {
             
             <blockquote className="font-body text-muted-foreground leading-relaxed">
               <p className="mb-4">
-                "En kraftfull föreläsning som visade att förändring alltid är möjlig. 
-                Viktors erfarenheter gav oss värdefulla insikter för vårt sociala arbete."
+                "En kraftfull föreläsning som visade att förändring alltid är möjlig. Viktors erfarenheter gav oss värdefulla insikter för 
+                hur vi kan förbättra vårt sociala arbete."
               </p>
               <footer className="text-sm text-accent font-medium">
                 — Socialsekreterare, Stockholms stad
@@ -144,7 +132,7 @@ const Lectures = () => {
                 romantisering, men med hopp och konkreta exempel på förändring."
               </p>
               <footer className="text-sm text-accent font-medium">
-                — Föreläsningsarrangör, Ungdomsmottagning
+                — Ungdomsorganisation
               </footer>
             </blockquote>
           </CardContent>
@@ -164,7 +152,7 @@ const Lectures = () => {
                   Skolor & Utbildning
                 </h3>
                 <p className="font-body text-sm text-muted-foreground">
-                  Gymnasieskolor, komvux, yrkesutbildningar och högskolorna
+                  Gymnasieskolor, komvux, yrkesutbildningar, högskolor
                 </p>
               </div>
               
@@ -173,7 +161,7 @@ const Lectures = () => {
                   Myndigheter
                 </h3>
                 <p className="font-body text-sm text-muted-foreground">
-                  Socialtjänst, polis, kriminalvård och andra berörda organisationer
+                  Socialtjänst, polis, kriminalvård
                 </p>
               </div>
               
@@ -182,7 +170,7 @@ const Lectures = () => {
                   Organisationer
                 </h3>
                 <p className="font-body text-sm text-muted-foreground">
-                  Ideella föreningar, företag och andra som arbetar med ungdomar
+                  Ideella föreningar, företag som arbetar med ungdomar
                 </p>
               </div>
             </div>
@@ -196,8 +184,8 @@ const Lectures = () => {
               Boka Viktor för din organisation
             </h2>
             <p className="font-body text-lg text-cream-medium max-w-2xl mx-auto">
-              Kontakta oss för att diskutera hur Viktor kan anpassa sin föreläsning 
-              efter era behov och er målgrupp.
+              Kontakta oss för att boka Viktor Grewe till er organisation. 
+              Anpassad föreläsning efter era behov och målgrupp.
             </p>
             <Button 
               size="lg" 
