@@ -57,24 +57,20 @@ const About = () => {
           <CardContent className="space-y-6">
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">Viktor Grewe</strong> (född 1999) är uppvuxen i Märsta och 
-                arbetar idag för KRIS (Kriminellas Revansch i Samhället). Efter att ha lämnat 
-                kriminaliteten bakom sig 2021, har Viktor ägnat sig åt att hjälpa andra unga 
-                att hitta en väg ut ur destruktiva mönster.
+                <strong className="text-foreground">Viktor Grewe</strong> (född 1999) är uppvuxen i Märsta och arbetar idag för KRIS. Efter att ha lämnat kriminaliteten bakom sig 2021, har Viktor ägnat sig åt att hjälpa andra unga att hitta en väg 
+                ut ur destruktiva mönster.
               </p>
               
               <p>
-                Hans egen resa från en uppväxt kantad av våld, brottslighet och fängelsestraff 
-                till ett konstruktivt liv som medarbetare på KRIS, ger honom unika insikter i 
-                både problemets komplexitet och möjligheterna till förändring.
+                Hans egen resa från en uppväxt kantad av våld, brottslighet och fängelsestraff till ett konstruktivt liv som medarbetare på KRIS, ger honom 
+                unika insikter i både problemets komplexitet och möjligheterna till förändring.
               </p>
               
               <p>
                 Viktor arbetar med förebyggande insatser mot gängrekrytering och håller 
                 föreläsningar på skolor och för myndigheter om sin egen resa från kriminalitet 
                 till ett konstruktivt liv. Hans arbete fokuserar på att visa att förändring 
-                alltid är möjlig, men kräver mod, stöd och framför allt en vilja att ta ansvar 
-                för sitt eget liv.
+                alltid är möjlig, Genom min historia hoppas jag inspirera andra att ta steget mot ett bättre liv, och inte göra samma misstag.
               </p>
             </div>
           </CardContent>
