@@ -176,10 +176,10 @@ const Contact = () => {
         <Card className="shadow-soft bg-gradient-cream border-accent/20">
           <CardContent className="py-8 space-y-6">
             <div className="text-center space-y-4">
-              <h2 className="font-display text-2xl font-bold text-foreground">
+              <h2 className="font-display text-2xl font-bold text-navy-dark">
                 Media & Intervjuer
               </h2>
-              <p className="font-body text-muted-foreground max-w-2xl mx-auto">
+              <p className="font-body text-navy-dark max-w-2xl mx-auto">
                 För medieanföranden, intervjuer och pressförfrågningar, 
                 kontakta oss på samma sätt. Viktor är tillgänglig för 
                 kommentarer kring ämnen som rör kriminalitet, förebyggande 
