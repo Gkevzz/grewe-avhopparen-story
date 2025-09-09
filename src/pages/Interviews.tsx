@@ -5,6 +5,9 @@ import { ExternalLink, Play, Headphones } from "lucide-react";
 import Navigation from "@/components/Navigation";
 
 const Interviews = () => {
+  // Toggle this to show/hide the Featured Interviews section
+  const showFeaturedInterviews = false;
+  
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -35,74 +38,76 @@ const Interviews = () => {
       {/* Main Content */}
       <div className="container mx-auto px-4 py-16 space-y-16">
         
-        {/* Featured Interviews */}
-        <div className="space-y-8">
-          <h2 className="font-display text-3xl font-bold text-foreground text-center">
-            Senaste intervjuer
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Podcast Interview */}
-            <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div className="space-y-2">
-                    <Badge variant="secondary" className="w-fit font-body">
-                      <Headphones className="w-3 h-3 mr-1" />
-                      Podcast
-                    </Badge>
-                    <CardTitle className="font-display text-xl text-foreground">
-                      Från kriminalitet till hopp
-                    </CardTitle>
+        {/* Featured Interviews - Hidden (set showFeaturedInterviews = true to show) */}
+        {showFeaturedInterviews && (
+          <div className="space-y-8">
+            <h2 className="font-display text-3xl font-bold text-foreground text-center">
+              Senaste intervjuer
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Podcast Interview */}
+              <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
+                <CardHeader>
+                  <div className="flex items-start justify-between">
+                    <div className="space-y-2">
+                      <Badge variant="secondary" className="w-fit font-body">
+                        <Headphones className="w-3 h-3 mr-1" />
+                        Podcast
+                      </Badge>
+                      <CardTitle className="font-display text-xl text-foreground">
+                        Från kriminalitet till hopp
+                      </CardTitle>
+                    </div>
                   </div>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="font-body text-sm text-muted-foreground">
-                  P4 Stockholm | 45 minuter
-                </p>
-                <p className="font-body text-muted-foreground leading-relaxed">
-                  Viktor berättar om sin bok "Avhopparen" och hur han gick från ett liv 
-                  präglat av våld till att hjälpa andra som befinner sig i samma situation.
-                </p>
-                <Button variant="outline" className="w-full font-body" disabled>
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Lyssna här (kommer snart)
-                </Button>
-              </CardContent>
-            </Card>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <p className="font-body text-sm text-muted-foreground">
+                    P4 Stockholm | 45 minuter
+                  </p>
+                  <p className="font-body text-muted-foreground leading-relaxed">
+                    Viktor berättar om sin bok "Avhopparen" och hur han gick från ett liv 
+                    präglat av våld till att hjälpa andra som befinner sig i samma situation.
+                  </p>
+                  <Button variant="outline" className="w-full font-body" disabled>
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Lyssna här (kommer snart)
+                  </Button>
+                </CardContent>
+              </Card>
 
-            {/* TV Interview */}
-            <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div className="space-y-2">
-                    <Badge variant="secondary" className="w-fit font-body">
-                      <Play className="w-3 h-3 mr-1" />
-                      TV-intervju
-                    </Badge>
-                    <CardTitle className="font-display text-xl text-foreground">
-                      Vägen ut ur gängkriminalitet
-                    </CardTitle>
+              {/* TV Interview */}
+              <Card className="shadow-soft hover:shadow-elegant transition-shadow duration-300">
+                <CardHeader>
+                  <div className="flex items-start justify-between">
+                    <div className="space-y-2">
+                      <Badge variant="secondary" className="w-fit font-body">
+                        <Play className="w-3 h-3 mr-1" />
+                        TV-intervju
+                      </Badge>
+                      <CardTitle className="font-display text-xl text-foreground">
+                        Vägen ut ur gängkriminalitet
+                      </CardTitle>
+                    </div>
                   </div>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="font-body text-sm text-muted-foreground">
-                  SVT Aktuellt | 12 minuter
-                </p>
-                <p className="font-body text-muted-foreground leading-relaxed">
-                  Ett djupare samtal om KRIS arbete och vikten av förebyggande insatser 
-                  för att motverka gängrekrytering bland unga.
-                </p>
-                <Button variant="outline" className="w-full font-body" disabled>
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Se intervjun (kommer snart)
-                </Button>
-              </CardContent>
-            </Card>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <p className="font-body text-sm text-muted-foreground">
+                    SVT Aktuellt | 12 minuter
+                  </p>
+                  <p className="font-body text-muted-foreground leading-relaxed">
+                    Ett djupare samtal om KRIS arbete och vikten av förebyggande insatser 
+                    för att motverka gängrekrytering bland unga.
+                  </p>
+                  <Button variant="outline" className="w-full font-body" disabled>
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Se intervjun (kommer snart)
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Upcoming Interviews */}
         <Card className="shadow-soft">
