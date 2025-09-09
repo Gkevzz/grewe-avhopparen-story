@@ -9,14 +9,17 @@ const Navigation = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  // Toggle this to show/hide the Interviews navigation link
+  const showInterviewsLink = false;
+
   const navItems = [
     { name: "Startsida", path: "/" },
     { name: "Föreläsningar", path: "/forelasningar" },
     { name: "Om författaren", path: "/om-forfattaren" },
     { name: "Boken", path: "/boken" },
-    { name: "Intervjuer/Poddar", path: "/intervjuer" },
+    // { name: "Intervjuer/Poddar", path: "/intervjuer" }, // Hidden - change showInterviewsLink to true to show
     { name: "Kontakt", path: "/kontakt" },
-  ];
+  ].filter(item => item.path !== "/intervjuer" || showInterviewsLink);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
