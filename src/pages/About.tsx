@@ -57,21 +57,22 @@ const About = () => {
           <CardContent className="space-y-6">
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">Viktor Grewe</strong> (född 1999) är uppvuxen i Märsta och arbetar idag för KRIS. Efter att ha lämnat kriminaliteten bakom sig 2021, har Viktor ägnat sig åt att hjälpa andra unga att hitta en väg 
-                ut ur destruktiva mönster.
-              </p>
-              
-              <p>
-                Hans egen resa från en uppväxt kantad av våld, brottslighet och fängelsestraff till ett konstruktivt liv som medarbetare på KRIS, ger honom 
-                unika insikter i både problemets komplexitet och möjligheterna till förändring.
-              </p>
-              
-              <p>
-                Viktor arbetar med förebyggande insatser mot gängrekrytering och håller 
-                föreläsningar på skolor och för myndigheter om sin egen resa från kriminalitet 
-                till ett konstruktivt liv. Hans arbete fokuserar på att visa att förändring 
-                alltid är möjlig, Genom min historia hoppas jag inspirera andra att ta steget mot ett bättre liv, och inte göra samma misstag.
-              </p>
+  <strong className="text-foreground">Viktor Grewe</strong> (född 1999) är uppvuxen i Märsta. Efter en uppväxt kantad av våld, brottslighet och fängelsestraff 
+                beslutade han 2021 att lämna kriminaliteten bakom sig. Idag studerar han till socialpedagog och arbetar extra inom frivården som biträdande
+                övervakare.
+</p>
+
+<p>
+  När Viktor arbetade för KRIS var han delaktig i organisationens anstaltsgrupp, där han besökte fängelser och arbetade med motivationsinsatser för intagna.
+  Dessa erfarenheter har gett honom unika insikter i både problemets komplexitet och möjligheterna till förändring.
+</p>
+
+<p>
+  Viktor arbetar idag med förebyggande insatser mot gängrekrytering och håller föreläsningar på skolor, för organisationer och myndigheter om sin egen resa. 
+  Hans arbete och hans bok <em>Avhopparen</em> visar att förändring alltid är möjlig, och genom sin historia vill han inspirera andra att ta steget mot ett 
+  bättre liv.
+</p>
+
             </div>
           </CardContent>
         </Card>
@@ -86,22 +87,23 @@ const About = () => {
           <CardContent className="space-y-6">
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                KRIS (Kriminellas Revansch i Samhället) är en ideell organisation som arbetar 
-                med att hjälpa människor att lämna kriminaliteten bakom sig. Organisationen 
-                grundades av tidigare kriminella som själva har genomgått förändringen.
-              </p>
-              
-              <p>
-                Som medarbetare på KRIS använder Viktor sin egen erfarenhet för att hjälpa 
-                andra som befinner sig i liknande situationer. Arbetet omfattar allt från 
-                individuellt stöd till förebyggande insatser i skolor och andra sammanhang.
-              </p>
-              
-              <p>
-                Viktors arbete på KRIS har gett honom djupa insikter i vad som krävs för att 
-                verkligen förändra ett liv präglat av kriminalitet. Denna erfarenhet är 
-                grunden för både hans föreläsningar och hans bok.
-              </p>
+  KRIS (Kriminellas Revansch i Samhället) är en ideell organisation som arbetar 
+  med att hjälpa människor att lämna kriminaliteten bakom sig. Organisationen 
+  grundades av tidigare kriminella som själva har genomgått förändringen.
+</p>
+
+<p>
+  När Viktor arbetade för KRIS var han delaktig i deras anstaltsgrupp, där han 
+  tillsammans med kollegor besökte anstalter för att bedriva motivationsarbete 
+  och stötta personer som ville påbörja en förändring. Utöver det bidrog han med 
+  individuellt stöd och förebyggande insatser i skolor och andra sammanhang.
+</p>
+
+<p>
+  Dessa erfarenheter gav Viktor en djupare förståelse för vad som krävs för att 
+  förändra ett liv präglat av kriminalitet. Grunden från KRIS är något han bär 
+  med sig i sina föreläsningar, i sitt fortsatta arbete och i sin bok.
+</p>
             </div>
           </CardContent>
         </Card>
