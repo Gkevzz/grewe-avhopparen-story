@@ -57,10 +57,12 @@ const Hero = () => {
                     Viktor Grewe
                   </h3>
                   <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                    Efter en uppväxt kantad av våld, brottslighet och fängelsestraff beslutade Viktor 2021 att förändra sitt liv. 
-                    Genom sitt arbete med KRIS och sina föreläsningar delar han med sig av sina erfarenheter för att inspirera och 
-                    guida unga människor bort från kriminalitet. Hans bok Avhopparen ger en unik inblick i vägen ut ur kriminalitet 
-                    och visar att förändring alltid är möjlig med rätt stöd och vilja.
+               Efter en uppväxt kantad av våld, brottslighet och fängelsestraff beslutade Viktor 2021 att förändra sitt liv. 
+                    Idag studerar han till socialpedagog och arbetar extra som biträdande övervakare inom frivården. 
+                    Genom sitt engagemang i KRIS – där han bland annat deltog i anstaltsgruppen och arbetade med motivationsinsatser 
+                    på anstalter – samt genom sina föreläsningar, delar Viktor med sig av sina erfarenheter för att inspirera unga
+                    bort från kriminalitet. Hans bok Avhopparen ger en unik inblick i vägen ut ur kriminalitet och visar att förändring
+                    alltid är möjlig med rätt stöd och vilja.
                   </p>
                 </div>
               </div>
