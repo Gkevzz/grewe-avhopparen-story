@@ -52,23 +52,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-display font-semibold text-foreground">Email</h3>
                     <p className="font-body text-muted-foreground">
-                      kontakt@viktorgrewe.se
+                      viktor.grewe@hotmail.com
                     </p>
                     <p className="font-body text-sm text-muted-foreground">
                       För bokningar och allmänna frågor
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <Phone className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-display font-semibold text-foreground">Telefon</h3>
-                    <p className="font-body text-muted-foreground">
-                      073-XXX XX XX
-                    </p>
-                    <p className="font-body text-sm text-muted-foreground">
-                      Vardagar 9-17
                     </p>
                   </div>
                 </div>
