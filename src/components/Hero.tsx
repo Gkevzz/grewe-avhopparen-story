@@ -108,7 +108,7 @@ const Hero = () => {
                 size="lg" 
                 className="font-body text-base px-8 py-3 bg-gradient-gold text-background hover:opacity-90 transition-all duration-300 shadow-gold"
               >
-                <a href="https://example.com/book" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.akademibokhandeln.se/bok/avhopparen-en-sann-berattelse/9789180533805" target="_blank" rel="noopener noreferrer">
                   Köp boken
                 </a>
               </Button>
