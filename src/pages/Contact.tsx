@@ -36,17 +36,17 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 space-y-12 lg:space-y-16">
         
         {/* Contact Information */}
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
           
           {/* Contact Details */}
-          <Card className="shadow-soft">
+          <Card className="shadow-soft lg:col-span-1">
             <CardHeader>
               <CardTitle className="font-display text-2xl text-foreground">
                 Kontaktinformation
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <div>
@@ -77,7 +77,7 @@ const Contact = () => {
           </Card>
 
           {/* Booking Information */}
-          <Card className="shadow-soft">
+          <Card className="shadow-soft lg:col-span-2">
             <CardHeader>
               <CardTitle className="font-display text-2xl text-foreground">
                 Bokning av föreläsningar
