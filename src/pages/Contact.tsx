@@ -170,9 +170,6 @@ const Contact = () => {
                 kommentarer kring ämnen som rör kriminalitet, förebyggande 
                 arbete och personlig utveckling.
               </p>
-              <Button variant="outline" className="font-body">
-                Kontakta för medieanföranden
-              </Button>
             </div>
           </CardContent>
         </Card>
