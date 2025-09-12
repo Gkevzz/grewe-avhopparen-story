@@ -28,10 +28,11 @@ const Lectures = () => {
             </div>
             
             <Button 
+              asChild
               size="lg" 
               className="font-body text-base px-12 py-4 bg-gradient-gold hover:opacity-90 transition-all duration-300 shadow-gold text-navy-dark"
             >
-              Boka föreläsning nu
+              <a href="/kontakt">Boka föreläsning nu</a>
             </Button>
           </div>
         </div>
@@ -187,10 +188,11 @@ const Lectures = () => {
               Anpassad föreläsning efter era behov och målgrupp.
             </p>
             <Button 
+              asChild
               size="lg" 
               className="font-body text-base px-12 py-4 bg-gradient-gold hover:opacity-90 transition-all duration-300 shadow-gold text-navy-dark"
             >
-              Kontakta Viktor för bokning
+              <a href="/kontakt">Kontakta Viktor för bokning</a>
             </Button>
           </CardContent>
         </Card>
