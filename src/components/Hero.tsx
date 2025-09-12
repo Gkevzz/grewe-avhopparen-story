@@ -78,16 +78,6 @@ const Hero = () => {
                   Mer om föreläsningar
                 </a>
               </Button>
-              <Button 
-                asChild 
-                size="lg" 
-                variant="outline"
-                className="font-body text-base px-8 py-3 border-2 border-accent text-accent hover:bg-accent/10 transition-all duration-300"
-              >
-                <a href="https://example.com/book" target="_blank" rel="noopener noreferrer">
-                  Köp boken
-                </a>
-              </Button>
             </div>
           </div>
 
@@ -102,16 +92,27 @@ const Hero = () => {
               />
             </div>
             
-            <Button 
-              asChild 
-              variant="outline" 
-              size="lg" 
-              className="font-body text-base px-8 py-3 border-2 border-accent text-accent hover:bg-accent/10 transition-all duration-300"
-            >
-              <a href="/boken">
-                Läs mer om boken
-              </a>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
+              <Button 
+                asChild 
+                variant="outline" 
+                size="lg" 
+                className="font-body text-base px-8 py-3 border-2 border-accent text-accent hover:bg-accent/10 transition-all duration-300"
+              >
+                <a href="/boken">
+                  Läs mer om boken
+                </a>
+              </Button>
+              <Button 
+                asChild 
+                size="lg" 
+                className="font-body text-base px-8 py-3 bg-gradient-gold text-background hover:opacity-90 transition-all duration-300 shadow-gold"
+              >
+                <a href="https://example.com/book" target="_blank" rel="noopener noreferrer">
+                  Köp boken
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
