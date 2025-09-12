@@ -168,10 +168,11 @@ const About = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
+                asChild
                 size="lg" 
                 className="font-body text-base px-8 py-3 bg-gradient-gold hover:opacity-90 transition-all duration-300 shadow-gold text-navy-dark"
               >
-                Boka föreläsning
+                <a href="/kontakt">Boka föreläsning</a>
               </Button>
               <Button 
                 asChild
