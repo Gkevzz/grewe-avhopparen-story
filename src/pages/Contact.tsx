@@ -11,19 +11,19 @@ const Contact = () => {
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-cream">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
-            <div className="space-y-6">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center space-y-6 lg:space-y-8">
+            <div className="space-y-4 lg:space-y-6">
               <Badge variant="secondary" className="w-fit font-body mx-auto">
                 Kontakt
               </Badge>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-navy-dark leading-tight">
+              <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-navy-dark leading-tight">
                 Kontakta Viktor Grewe
-                <span className="block text-2xl md:text-3xl text-navy-dark font-normal mt-2">
+                <span className="block text-xl sm:text-2xl md:text-3xl text-navy-dark font-normal mt-2">
                   För föreläsningar och samarbeten
                 </span>
               </h1>
-              <p className="font-body text-lg text-navy-dark leading-relaxed max-w-3xl mx-auto">
+              <p className="font-body text-base sm:text-lg text-navy-dark leading-relaxed max-w-3xl mx-auto px-4">
                 Boka Viktor för föreläsningar, workshops eller andra arrangemang. 
                 Kontakta mig för att diskutera era behov och hur Viktor kan bidra.
               </p>
@@ -33,10 +33,10 @@ const Contact = () => {
       </section>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-16 space-y-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 space-y-12 lg:space-y-16">
         
         {/* Contact Information */}
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           
           {/* Contact Details */}
           <Card className="shadow-soft">
@@ -108,13 +108,12 @@ const Contact = () => {
                   och anpassning av innehållet efter era behov.
                 </p>
               </div>
-             <Button
-  size="lg"
-  className="w-full font-body text-base px-8 py-3 bg-[hsl(42_87%_88%)] text-[hsl(220_30%_8%)] hover:bg-[hsl(42_87%_88%)]/90 border-[hsl(42_87%_88%)] transition-all duration-300 flex items-center justify-center"
->
-  <Calendar className="w-4 h-4 mr-2" />
-  Boka föreläsning nu
-</Button>
+              
+              <div className="pt-4 border-t border-border/20">
+                <p className="font-body text-foreground text-center">
+                  Kontakta <a href="mailto:viktor.grewe@hotmail.com" className="text-accent hover:underline font-medium">viktor.grewe@hotmail.com</a> för bokningar
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>
@@ -122,12 +121,12 @@ const Contact = () => {
         {/* What we offer */}
         <Card className="shadow-soft">
           <CardHeader>
-            <CardTitle className="font-display text-2xl text-foreground">
+            <CardTitle className="font-display text-xl sm:text-2xl text-foreground">
               Vad vi erbjuder
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               <div className="space-y-3">
                 <h3 className="font-display text-lg font-semibold text-foreground">
                   Föreläsningar

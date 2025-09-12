@@ -22,14 +22,14 @@ const Hero = () => {
 
   return (
     <section className="pt-20 pb-16 bg-gradient-navy min-h-screen flex items-center">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content Side */}
-          <div className="space-y-8 order-2 lg:order-1">
-            <div className="space-y-6">
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+          <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
+            <div className="space-y-4 lg:space-y-6">
+              <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Viktor Grewe
-                <span className="block text-accent">– Författare och Föreläsare</span>
+                <span className="block text-accent text-2xl sm:text-3xl md:text-4xl lg:text-5xl">– Författare och Föreläsare</span>
               </h1>
               
               <div className="space-y-4">
@@ -45,14 +45,14 @@ const Hero = () => {
               </div>
             </div>
 
-            <Card className="p-6 shadow-soft bg-card/50 backdrop-blur-sm border-border/50">
-              <div className="flex items-start space-x-4">
+            <Card className="p-4 sm:p-6 shadow-soft bg-card/50 backdrop-blur-sm border-border/50">
+              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <img 
                   src={authorPhoto}
                   alt="Viktor Grewe"
-                  className="w-16 h-16 rounded-full object-cover shadow-soft"
+                  className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover shadow-soft mx-auto sm:mx-0"
                 />
-                <div className="space-y-3 flex-1">
+                <div className="space-y-3 flex-1 text-center sm:text-left">
                   <h3 className="font-display text-xl font-semibold text-foreground">
                     Viktor Grewe
                   </h3>
@@ -78,17 +78,27 @@ const Hero = () => {
                   Mer om föreläsningar
                 </a>
               </Button>
+              <Button 
+                asChild 
+                size="lg" 
+                variant="outline"
+                className="font-body text-base px-8 py-3 border-2 border-accent text-accent hover:bg-accent/10 transition-all duration-300"
+              >
+                <a href="https://example.com/book" target="_blank" rel="noopener noreferrer">
+                  Köp boken
+                </a>
+              </Button>
             </div>
           </div>
 
           {/* Book Cover Side */}
-          <div className="flex flex-col items-center lg:items-end order-1 lg:order-2 space-y-6">
+          <div className="flex flex-col items-center lg:items-end order-1 lg:order-2 space-y-4 lg:space-y-6">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-full"></div>
               <img 
                 src={bookCover}
                 alt="Avhopparen - En sann berättelse bokomslag av Viktor Grewe"
-                className="relative w-80 md:w-96 h-auto shadow-elegant rounded-lg hover:scale-105 transition-transform duration-500 ease-elegant"
+                className="relative w-64 sm:w-80 md:w-96 h-auto shadow-elegant rounded-lg hover:scale-105 transition-transform duration-500 ease-elegant"
               />
             </div>
             
