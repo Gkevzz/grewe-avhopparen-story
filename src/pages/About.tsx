@@ -2,7 +2,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Navigation from "@/components/Navigation";
-import authorPhoto from "@/assets/viktor-grewe.jpg";
+import authorHeroDesktop from "@/assets/author-hero-desktop.webp";
+import authorHeroMobile from "@/assets/author-hero-mobile.webp";
 
 const About = () => {
   return (
@@ -10,36 +11,34 @@ const About = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-cream">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <Badge variant="secondary" className="w-fit font-body">
-                  Författare & Föreläsare
-                </Badge>
-                <h1 className="font-display text-4xl md:text-5xl font-bold text-black leading-tight">
-  Viktor Grewe
-  <span className="block text-2xl md:text-3xl text-gray-800 font-normal mt-2">
-                    Från utanförskap till engagemang
-                  </span>
-                </h1>
-              </div>
-            </div>
-            
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-full"></div>
-                <div className="relative w-80 h-80 bg-muted rounded-full shadow-elegant flex items-center justify-center overflow-hidden">
-                  <img
-  src={authorPhoto}
-  alt="Viktor Grewe"
-  className="w-full h-full object-cover"
-  loading="lazy"
-/>
-                </div>
-              </div>
-            </div>
+      <section className="relative h-[60vh] md:h-[70vh] overflow-hidden">
+        {/* Background Images */}
+        <img 
+          src={authorHeroMobile}
+          alt="Viktor Grewe"
+          className="absolute inset-0 w-full h-full object-cover block md:hidden"
+        />
+        <img 
+          src={authorHeroDesktop}
+          alt="Viktor Grewe"
+          className="absolute inset-0 w-full h-full object-cover hidden md:block"
+        />
+        
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
+        
+        {/* Content */}
+        <div className="relative z-10 h-full flex items-center justify-center">
+          <div className="text-center space-y-4 px-4 max-w-4xl mx-auto">
+            <p className="font-body text-lg md:text-xl text-cream-light">
+              Författare & Föreläsare
+            </p>
+            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-cream-light leading-tight">
+              Viktor Grewe
+            </h1>
+            <p className="font-display text-xl md:text-2xl lg:text-3xl text-cream-medium font-normal">
+              Från utanförskap till engagemang
+            </p>
           </div>
         </div>
       </section>
