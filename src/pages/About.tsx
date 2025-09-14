@@ -14,12 +14,12 @@ const About = () => {
       <section className="relative h-[60vh] md:h-[70vh] overflow-hidden">
         {/* Background Images */}
         <img 
-          src={authorHeroDesktop}
+          src={authorHeroMobile}
           alt="Viktor Grewe"
           className="absolute inset-0 w-full h-full object-cover block md:hidden"
         />
         <img 
-          src={authorHeroMobile}
+          src={authorHeroDesktop}
           alt="Viktor Grewe"
           className="absolute inset-0 w-full h-full object-cover hidden md:block"
         />
