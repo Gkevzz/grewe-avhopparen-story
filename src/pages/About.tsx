@@ -28,8 +28,8 @@ const About = () => {
         <div className="absolute inset-0 bg-black/40"></div>
         
         {/* Content */}
-        <div className="relative z-10 h-full flex items-center justify-center">
-          <div className="text-center space-y-4 px-4 max-w-4xl mx-auto">
+        <div className="relative z-10 h-full flex items-start pt-16 md:items-center md:pt-0 justify-center">
+          <div className="text-center space-y-2 md:space-y-4 px-4 max-w-4xl mx-auto">
             <p className="font-body text-lg md:text-xl text-cream-light">
               Författare & Föreläsare
             </p>
