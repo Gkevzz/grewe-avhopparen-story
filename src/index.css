@@ -160,4 +160,14 @@
   .kris-link {
     @apply text-accent hover:text-accent/80 underline transition-colors duration-200;
   }
+
+  /* Fix Lovable badge close button touch target size for accessibility */
+  #lovable-badge-close {
+    min-width: 24px !important;
+    min-height: 24px !important;
+    padding: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }
