@@ -4,7 +4,7 @@ import mobileHero from "@/assets/viktor-hero-mobile.webp";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative h-[60vh] md:h-[100vh] flex items-center overflow-hidden">
       {/* Background Images */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -12,10 +12,10 @@ const Hero = () => {
           alt="Viktor Grewe hero background"
           className="hidden md:block w-full h-full object-cover"
         />
-        <img 
+       <img 
   src={mobileHero}
   alt="Viktor Grewe hero background mobile"
-  className="block md:hidden w-full h-full object-cover object-center"
+  className="block md:hidden absolute inset-0 w-full h-full object-cover object-center"
 />
         {/* Dark overlay for better text contrast */}
         <div className="absolute inset-0 bg-black/50"></div>
