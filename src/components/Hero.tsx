@@ -4,7 +4,7 @@ import mobileHero from "@/assets/viktor-hero-mobile.webp";
 
 const Hero = () => {
   return (
-    <section className="relative h-[60vh] md:h-[100vh] flex items-center overflow-hidden">
+    <section className="relative h-[70vh] md:h-[100vh] flex items-center overflow-hidden">
       {/* Background Images */}
       <div className="absolute inset-0 z-0">
         <img 
