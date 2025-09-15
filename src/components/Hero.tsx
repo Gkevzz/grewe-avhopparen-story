@@ -13,10 +13,10 @@ const Hero = () => {
           className="hidden md:block w-full h-full object-cover"
         />
         <img 
-          src={mobileHero}
-          alt="Viktor Grewe hero background mobile"
-          className="block md:hidden w-full h-full object-cover"
-        />
+  src={mobileHero}
+  alt="Viktor Grewe hero background mobile"
+  className="block md:hidden w-full h-full object-cover object-center"
+/>
         {/* Dark overlay for better text contrast */}
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
