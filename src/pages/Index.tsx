@@ -21,7 +21,7 @@ const Index = () => {
            <Button
   asChild
   size="lg"
-  className="bg-yellow-500 hover:bg-yellow-500 text-white font-body text-base px-8 py-3"
+  className="bg-yellow-500 hover:bg-yellow-500 text-black font-body text-base px-8 py-3"
 >
   <a href="/om-forfattaren">
     Mer om Viktor Grewe
