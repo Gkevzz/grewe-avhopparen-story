@@ -18,16 +18,15 @@ const Index = () => {
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Efter en uppväxt kantad av våld, brottslighet och fängelsestraff beslutade Viktor 2021 att förändra sitt liv. Idag studerar han till socialpedagog, arbetar extra inom frivården och engagerar sig i KRIS. Genom föreläsningar och sin bok Avhopparen delar han med sig av sina erfarenheter för att inspirera unga bort från kriminalitet.
             </p>
-            <Button 
-              asChild 
-              variant="outline" 
-              size="lg" 
-              className="font-body text-base px-8 py-3"
-            >
-              <a href="/om-forfattaren">
-                Mer om Viktor Grewe
-              </a>
-            </Button>
+           <Button
+  asChild
+  size="lg"
+  className="bg-yellow-500 hover:bg-yellow-500 text-white font-body text-base px-8 py-3"
+>
+  <a href="/om-forfattaren">
+    Mer om Viktor Grewe
+  </a>
+</Button>
           </div>
         </div>
       </section>
