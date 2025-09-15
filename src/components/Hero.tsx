@@ -40,28 +40,21 @@ const Hero = () => {
   Inspirerande föreläsningar och en gripande självbiografi om vägen från kriminalitet till ett meningsfullt liv.
            </p>
           </div>
-
-          {/* Buttons */}
+         {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
-              asChild 
-              variant="outline" 
-              size="lg" 
-              className="font-body text-base px-8 py-3 border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-300 bg-transparent"
-            >
-              <a href="/boken">
-                Läs mer om boken
-              </a>
-            </Button>
-            <Button 
-              asChild 
-              size="lg" 
-              className="font-body text-base px-8 py-3 bg-gradient-gold text-black hover:opacity-90 transition-all duration-300 shadow-gold"
-            >
-              <a href="/forelasningar">
-                Boka föreläsning
-              </a>
-            </Button>
+      asChild 
+      variant="outline" 
+      className="font-body text-sm px-6 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-300 bg-transparent md:text-base md:px-8 md:py-3"
+    >
+      <a href="/boken">Läs mer om boken</a>
+    </Button>
+    <Button 
+      asChild 
+      className="font-body text-sm px-6 py-2 bg-gradient-gold text-black hover:opacity-90 transition-all duration-300 shadow-gold md:text-base md:px-8 md:py-3"
+    >
+      <a href="/forelasningar">Boka föreläsning</a>
+    </Button>
           </div>
         </div>
       </div>
