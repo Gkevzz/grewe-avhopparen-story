@@ -23,7 +23,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="max-w-4xl mx-auto space-y-6 md:space-y-8 pt-4 md:pt-4 lg:pt-8">
+        <div className="max-w-4xl mx-auto space-y-4 md:space-y-8 pt-4 md:pt-8 lg:pt-8">
           {/* Main Heading */}
           <div className="space-y-2 md:space-y-4">
             <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
