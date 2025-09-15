@@ -58,7 +58,7 @@ const Hero = () => {
               size="lg" 
               className="font-body text-base px-8 py-3 bg-gradient-gold text-black hover:opacity-90 transition-all duration-300 shadow-gold"
             >
-              <a href="/kontakt">
+              <a href="/forelasningar">
                 Boka föreläsning
               </a>
             </Button>
