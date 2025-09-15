@@ -23,7 +23,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="max-w-4xl mx-auto space-y-6 md:space-y-8">
+        <div className="max-w-4xl mx-auto space-y-6 md:space-y-8 md:pt-12 lg:pt-20">
           {/* Main Heading */}
           <div className="space-y-2 md:space-y-4">
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
           
           {/* Description */}
-          <p className="font-body text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto px-4">
+          <p className="font-body text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed max-w-2xl md:max-w-xl lg:max-w-2xl mx-auto px-4">
             Inspirerande föreläsningar och en gripande självbiografi om vägen från kriminalitet till ett meningsfullt liv.
           </p>
 
