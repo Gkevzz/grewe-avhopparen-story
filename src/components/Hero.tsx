@@ -36,9 +36,9 @@ const Hero = () => {
           
           {/* Description */}
           <div className="mt-8 md:mt-16 lg:mt-20">
-            <p className="font-body text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed max-w-lg mx-auto px-4">
-              Inspirerande föreläsningar och en gripande självbiografi om vägen från kriminalitet till ett meningsfullt liv.
-            </p>
+           <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed max-w-lg mx-auto px-4">
+  Inspirerande föreläsningar och en gripande självbiografi om vägen från kriminalitet till ett meningsfullt liv.
+           </p>
           </div>
 
           {/* Buttons */}
